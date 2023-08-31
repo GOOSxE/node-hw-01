@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { nanoid } from "nanoid";
 import path from "path";
-// ? // Абсолютний шлях до файлу контактів ;
+// * // Абсолютний шлях до файлу контактів ;
 const contactsPath = path.resolve("db", "contacts.json");
 // ? // Функція оновлення файлу контактів ;
 export const updateContactsJSON = (contacts) =>
